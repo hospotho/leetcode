@@ -3,7 +3,7 @@
 #include <vector>
 
 class Solution {
-public:
+ public:
   std::vector<std::vector<std::string>>
   groupAnagrams(std::vector<std::string> &strs) {
     unsigned long long count[26] = {};
